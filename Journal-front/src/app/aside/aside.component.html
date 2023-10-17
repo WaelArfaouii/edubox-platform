@@ -1,0 +1,44 @@
+<aside>
+  <!--            logo and title -->
+  <div class="top">
+
+    <div class="logo">
+      <img src="../assets/logo.png" alt="logo">
+      <h2>Edu<span class="primary">box</span></h2>
+      <div class="close" id="close-btn">
+                        <span class="material-symbols-outlined">
+                            close
+                            </span>
+      </div>
+    </div>
+
+  </div>
+
+  <!--            sidebar-->
+  <div class="sidebar">
+
+    <a *ngFor="let item of items" [ngClass]="{'active': selectedItemId === item.id}" (click)="selectItem(item.id)">
+                    <span class="material-symbols-outlined">
+                    {{item.icon}}</span>
+      <h3>
+        {{item.name}}
+      </h3>
+
+    </a>
+
+    <a href="#">
+                    <span class="material-symbols-outlined">
+                    logout
+                    </span>
+      <h3>
+        Logout
+      </h3>
+
+    </a>
+
+
+  </div>
+
+
+</aside>
+<!--        End of the aside -->

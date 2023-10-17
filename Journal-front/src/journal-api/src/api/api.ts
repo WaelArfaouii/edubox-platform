@@ -1,0 +1,17 @@
+export * from './authentication.service';
+import { AuthenticationService } from './authentication.service';
+export * from './author.service';
+import { AuthorService } from './author.service';
+export * from './comment.service';
+import { CommentService } from './comment.service';
+export * from './editor.service';
+import { EditorService } from './editor.service';
+export * from './invitation.service';
+import { InvitationService } from './invitation.service';
+export * from './item.service';
+import { ItemService } from './item.service';
+export * from './manuscript.service';
+import { ManuscriptService } from './manuscript.service';
+export * from './reviewer.service';
+import { ReviewerService } from './reviewer.service';
+export const APIS = [AuthenticationService, AuthorService, CommentService, EditorService, InvitationService, ItemService, ManuscriptService, ReviewerService];
