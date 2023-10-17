@@ -17,7 +17,7 @@
   <!--            sidebar-->
   <div class="sidebar">
 
-    <a *ngFor="let item of items" [ngClass]="{'active': selectedItemId === item.id}" (click)="selectItem(item.id)">
+    <a *ngFor="let item of items" [ngClass]="{'active': selectedItemId === item.id}" (click)="onPathClick(item.url,item.id)">
                     <span class="material-symbols-outlined">
                     {{item.icon}}</span>
       <h3>
