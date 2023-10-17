@@ -20,6 +20,7 @@ import { AuthorAsideComponent } from './author/author-aside/author-aside.compone
 import { AuthorDashboardComponent } from './author/author-dashboard/author-dashboard.component';
 import { ManuscriptsComponent } from './author/manuscripts/manuscripts.component';
 import { SettingsComponent } from './settings/settings.component';
+import { AuthorUpdatesComponent } from './author/author-updates/author-updates.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { SettingsComponent } from './settings/settings.component';
     AuthorAsideComponent,
     AuthorDashboardComponent,
     ManuscriptsComponent,
-    SettingsComponent
+    SettingsComponent,
+    AuthorUpdatesComponent
   ],
     imports: [
         BrowserModule,
