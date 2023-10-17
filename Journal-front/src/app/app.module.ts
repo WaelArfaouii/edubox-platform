@@ -19,6 +19,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { AuthorAsideComponent } from './author/author-aside/author-aside.component';
 import { AuthorDashboardComponent } from './author/author-dashboard/author-dashboard.component';
 import { ManuscriptsComponent } from './author/manuscripts/manuscripts.component';
+import { SettingsComponent } from './settings/settings.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ManuscriptsComponent } from './author/manuscripts/manuscripts.component
     ProfileComponent,
     AuthorAsideComponent,
     AuthorDashboardComponent,
-    ManuscriptsComponent
+    ManuscriptsComponent,
+    SettingsComponent
   ],
     imports: [
         BrowserModule,
