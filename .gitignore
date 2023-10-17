@@ -1,3 +1,2 @@
 # Ignore node_modules directory in Angular project
 /Journal-front/node_modules/
-/Journal-front/.angular
